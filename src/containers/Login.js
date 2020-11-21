@@ -22,13 +22,13 @@ const Login = () => {
   //Redirect to the home page
 
   return (
-    <div className="container mt5">
+    <div className="container mt-5">
       <h1> Sign in </h1>
       <p>Sign into your account </p>
       <form onSubmit={e => onSubmit(e)}>
         <div className="form-group">
           <input
-            className="form-control"
+            className="form-control mb-3"
             type="email"
             placeholder="Email"
             name="email"

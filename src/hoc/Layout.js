@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 
 const Layout = props => (
   <div>
-    {/* <Navbar /> */}
+    NAVBAR
     {props.children}
   </div>
 );
