@@ -15,11 +15,13 @@ const Login = () => {
 
   const onSubmit = e => {
     e.preventDefault();
+
+    //login(email, password)
+    //Is the user authenticated?
+    //Redirect to the home page
   };
 
-  //login(email, password)
-  //Is the user authenticated?
-  //Redirect to the home page
+  
 
   return (
     <div className="container mt-5">

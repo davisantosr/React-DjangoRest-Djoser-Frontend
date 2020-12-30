@@ -7,7 +7,7 @@ import {
 
 const initialState = {
   access: localStorage.getItem('access'),
-  refresh: localStorage.getItem('access'),
+  refresh: localStorage.getItem('refresh'),
   isAuthenticated: null,
   user: null
 };
@@ -37,7 +37,7 @@ export default function (state = initialState, action) {
       };
 
     case LOGIN_FAIL:
-      localStorage.removeItem('acess', payload.access);
+      localStorage.removeItem('access', payload.access);
       localStorage.removeItem('refresh', payload.refresh);
       return {
         ...state,
